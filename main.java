@@ -3,11 +3,11 @@ package paquete;
 public class main {
     public static void main(String[] args) {
         Coche miCoche=new Coche();
-        miCoche.agregarP();
-        miCoche.agregarP();
-        miCoche.agregarP();
-        miCoche.agregarP();
+        miCoche.agregarPuertas();
+        miCoche.agregarPuertas();
+        miCoche.agregarPuertas();
+        miCoche.agregarPuertas();
 
-        miCoche.mostrarP();
+        miCoche.mostrarPuertas();
     }
 }
