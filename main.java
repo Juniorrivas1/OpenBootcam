@@ -1,13 +1,16 @@
-package paquete;
+package Suma;
 
 public class main {
     public static void main(String[] args) {
-        Coche miCoche=new Coche();
-        miCoche.agregarPuertas();
-        miCoche.agregarPuertas();
-        miCoche.agregarPuertas();
-        miCoche.agregarPuertas();
+        int num1 = 10;
+        int num2 = 30;
+        int num3 = 40;
 
-        miCoche.mostrarPuertas();
+        int suma = num1 + num2 + num3;
+
+        System.out.println("La suma de todo da un total de " + suma);
+
     }
+
+
 }
